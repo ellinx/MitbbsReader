@@ -1,0 +1,7 @@
+1. create a Podfile
+"pod init"
+
+2. add pod
+
+3. install pods
+"pod install"

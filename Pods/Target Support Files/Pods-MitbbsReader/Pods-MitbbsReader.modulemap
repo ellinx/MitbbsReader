@@ -1,0 +1,6 @@
+framework module Pods_MitbbsReader {
+  umbrella header "Pods-MitbbsReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
