@@ -15,7 +15,9 @@
 		B92A8EAC21FED45D00657D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92A8EAA21FED45D00657D56 /* LaunchScreen.storyboard */; };
 		B9841E4D2218A42900F261FF /* AwesomeJokeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9841E4C2218A42900F261FF /* AwesomeJokeVC.swift */; };
 		B9841E5222194BBB00F261FF /* TieziInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9841E5122194BBB00F261FF /* TieziInfo.swift */; };
+		B9841E54221A3C6E00F261FF /* mainMenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9841E53221A3C6E00F261FF /* mainMenuTVC.swift */; };
 		B9A9A5B4220D51450093F082 /* Sub0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9A5B3220D51450093F082 /* Sub0ViewController.swift */; };
+		B9B75C5C222C5A6C009F0DD1 /* subTopicTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B75C5B222C5A6C009F0DD1 /* subTopicTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +32,9 @@
 		B92A8EAD21FED45D00657D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9841E4C2218A42900F261FF /* AwesomeJokeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeJokeVC.swift; sourceTree = "<group>"; };
 		B9841E5122194BBB00F261FF /* TieziInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieziInfo.swift; sourceTree = "<group>"; };
+		B9841E53221A3C6E00F261FF /* mainMenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenuTVC.swift; sourceTree = "<group>"; };
 		B9A9A5B3220D51450093F082 /* Sub0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub0ViewController.swift; sourceTree = "<group>"; };
+		B9B75C5B222C5A6C009F0DD1 /* subTopicTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subTopicTVC.swift; sourceTree = "<group>"; };
 		DD3A6160C7B74584AD5FDAE9 /* Pods_MitbbsReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MitbbsReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,9 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				B92A8EA121FED45A00657D56 /* AppDelegate.swift */,
+				B9841E53221A3C6E00F261FF /* mainMenuTVC.swift */,
 				B92A8EA321FED45A00657D56 /* ViewController.swift */,
 				B9A9A5B3220D51450093F082 /* Sub0ViewController.swift */,
 				B9841E4C2218A42900F261FF /* AwesomeJokeVC.swift */,
+				B9B75C5B222C5A6C009F0DD1 /* subTopicTVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9A9A5B4220D51450093F082 /* Sub0ViewController.swift in Sources */,
+				B9B75C5C222C5A6C009F0DD1 /* subTopicTVC.swift in Sources */,
 				B9841E5222194BBB00F261FF /* TieziInfo.swift in Sources */,
 				B9841E4D2218A42900F261FF /* AwesomeJokeVC.swift in Sources */,
+				B9841E54221A3C6E00F261FF /* mainMenuTVC.swift in Sources */,
 				B92A8EA421FED45A00657D56 /* ViewController.swift in Sources */,
 				B92A8EA221FED45A00657D56 /* AppDelegate.swift in Sources */,
 			);

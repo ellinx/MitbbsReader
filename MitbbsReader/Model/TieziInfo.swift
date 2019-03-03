@@ -9,7 +9,7 @@
 import Foundation
 
 class TieziInfo {
-    var id: Int = 0
+    var id: String = ""
     var link: String = ""
     var title: String = ""
     var replyAndClick: String = ""
